@@ -1,0 +1,10 @@
+/.vs
+*.bin
+/BackProject/x64
+/MergeBin/x64
+*.ilk
+*.pdb
+*.exe
+*.lib
+*.iobj
+*.ipdb
