@@ -1,0 +1,21 @@
+﻿  GenerateMatchImage.cpp
+c1xx : warning C4199: C++/CLI、C++/CX 或 OpenMP 不支持两阶段名称查找；请使用 /Zc:twoPhase-
+  Unknown compiler version - please run the configure tests and report the results
+c:\users\xiarui\desktop\backproject2.0\3rdparty\cgal-5.4\include\cgal\installation\internal\enable_third_party_libraries.h(30): warning C4068: 未知的杂注
+c:\users\xiarui\desktop\backproject2.0\3rdparty\boost-1.57\include\boost\format\alt_sstream_impl.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+c:\users\xiarui\desktop\backproject2.0\3rdparty\boost-1.57\include\boost\container\detail\advanced_insert_int.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  Automatically Linking With SVSAerialProject.dll
+c:\users\xiarui\desktop\backproject2.0\generatematchimage\generatematchimage.cpp(124): warning C4018: “<”: 有符号/无符号不匹配
+c:\users\xiarui\desktop\backproject2.0\generatematchimage\generatematchimage.cpp(205): warning C4018: “<”: 有符号/无符号不匹配
+c:\users\xiarui\desktop\backproject2.0\generatematchimage\generatematchimage.cpp(242): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+c:\users\xiarui\desktop\backproject2.0\generatematchimage\generatematchimage.cpp(312): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+c:\users\xiarui\desktop\backproject2.0\generatematchimage\generatematchimage.cpp(316): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+c:\users\xiarui\desktop\backproject2.0\generatematchimage\generatematchimage.cpp(369): warning C4305: “初始化”: 从“double”到“float”截断
+c:\users\xiarui\desktop\backproject2.0\generatematchimage\generatematchimage.cpp(378): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+c:\users\xiarui\desktop\backproject2.0\generatematchimage\generatematchimage.cpp(509): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+  正在生成代码
+  5 of 3924 functions ( 0.1%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    119 functions had inline decision re-evaluated but remain unchanged
+  已完成代码的生成
+  GenerateMatchImage.vcxproj -> C:\Users\XiaRui\Desktop\BackProject2.0\x64\Release\GenerateMatchImage.exe

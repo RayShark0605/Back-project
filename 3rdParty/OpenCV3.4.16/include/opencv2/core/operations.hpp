@@ -46,7 +46,7 @@
 #define OPENCV_CORE_OPERATIONS_HPP
 
 #ifndef __cplusplus
-//#  error operations.hpp header must be compiled as C++
+#  error operations.hpp header must be compiled as C++
 #endif
 
 #include <cstdio>

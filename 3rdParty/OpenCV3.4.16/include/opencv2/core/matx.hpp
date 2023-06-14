@@ -45,7 +45,7 @@
 #define OPENCV_CORE_MATX_HPP
 
 #ifndef __cplusplus
-//#  error matx.hpp header must be compiled as C++
+#  error matx.hpp header must be compiled as C++
 #endif
 
 #include "opencv2/core/cvdef.h"

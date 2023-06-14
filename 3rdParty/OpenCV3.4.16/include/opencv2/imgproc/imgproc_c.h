@@ -42,7 +42,7 @@
 
 #ifndef OPENCV_IMGPROC_IMGPROC_C_H
 #define OPENCV_IMGPROC_IMGPROC_C_H
-#pragma warning(4:4233)
+
 #include "opencv2/imgproc/types_c.h"
 
 #ifdef __cplusplus

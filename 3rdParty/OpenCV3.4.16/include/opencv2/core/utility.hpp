@@ -46,7 +46,7 @@
 #define OPENCV_CORE_UTILITY_H
 
 #ifndef __cplusplus
-//#  error utility.hpp header must be compiled as C++
+#  error utility.hpp header must be compiled as C++
 #endif
 
 #if defined(check)

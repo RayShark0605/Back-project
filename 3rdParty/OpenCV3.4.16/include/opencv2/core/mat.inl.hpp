@@ -46,7 +46,7 @@
 #define OPENCV_CORE_MATRIX_OPERATIONS_HPP
 
 #ifndef __cplusplus
-//#  error mat.inl.hpp header must be compiled as C++
+#  error mat.inl.hpp header must be compiled as C++
 #endif
 
 #ifdef _MSC_VER

@@ -45,7 +45,7 @@
 #define OPENCV_CORE_TYPES_HPP
 
 #ifndef __cplusplus
-//#  error types.hpp header must be compiled as C++
+#  error types.hpp header must be compiled as C++
 #endif
 
 #include <climits>

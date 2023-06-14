@@ -1,1 +1,0 @@
-DIR *.lib /B>List.txt

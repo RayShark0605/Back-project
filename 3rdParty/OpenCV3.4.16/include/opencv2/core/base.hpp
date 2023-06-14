@@ -46,7 +46,7 @@
 #define OPENCV_CORE_BASE_HPP
 
 #ifndef __cplusplus
-//#  error base.hpp header must be compiled as C++
+#  error base.hpp header must be compiled as C++
 #endif
 
 #include "opencv2/opencv_modules.hpp"

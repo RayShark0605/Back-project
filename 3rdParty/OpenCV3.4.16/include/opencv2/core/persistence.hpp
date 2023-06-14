@@ -50,7 +50,7 @@
 #endif
 
 #ifndef __cplusplus
-//#  error persistence.hpp header must be compiled as C++
+#  error persistence.hpp header must be compiled as C++
 #endif
 
 //! @addtogroup core_c

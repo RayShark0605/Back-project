@@ -46,7 +46,6 @@ typedef CGAL::AABB_tree<CGAL::AABB_traits<K, CGAL::AABB_triangle_primitive<K, li
 typedef cv::Point3d Vector; //向量
 typedef Vector NormalVector; //法向量
 
-
 struct CBackProjectConfig
 {
 	bool IsDoBlockJudgment = true;
@@ -207,7 +206,6 @@ private:
 
 void LoadBackProjectConfig(string ConfigPath, CBackProjectConfig& BackProjectConfig);
 void Parse(string line, string& Config, string& value);
-void LoadBackProjectConfig(string ConfigPath, CBackProjectConfig& BackProjectConfig);
 bool IsBlocked(CModel& Model, CAerialPhoto* Image, size_t FaceID);
 void BackProject(cv::Point3d& Point3D, CAerialPhoto* Photo, cv::Point2d& Point2D);
 bool IsValidBackProject(cv::Point2d& BackProjectP1, cv::Point2d& BackProjectP2, cv::Point2d& BackProjectP3, CAerialPhoto* Photo);
@@ -250,10 +248,6 @@ int main(int argc, char* argv[])
 	cout << "The current computer needs to calculate " << ViewNum << " views!" << endl;
 
 	vector<unordered_set<size_t>> VisibleFaceIDs(CalculateImagesNum);
-	for (size_t i = 0; i < CalculateImagesNum; i++)
-	{
-		VisibleFaceIDs[i].reserve(FaceNum);
-	}
 	atomic<size_t> BlockedViewNum = 0;
 	atomic<size_t> CompletedViewNum = 0;
 	cout << endl << (BackProjectConfig.IsDoBlockJudgment ? "Performing back projection (remove occlusion)..." : "Performing back projection (without remove occlusion)...") << endl;
@@ -399,7 +393,7 @@ void LoadBackProjectConfig(string ConfigPath, CBackProjectConfig& BackProjectCon
 	getline(file, line); //SvpPath=...
 	Parse(line, config, BackProjectConfig.SvpPath);
 
-	getline(file, line); //SvpPath=...
+	getline(file, line); //BinSavePath=...
 	Parse(line, config, BackProjectConfig.BinSavePath);
 
 	getline(file, line); //CentralX=0

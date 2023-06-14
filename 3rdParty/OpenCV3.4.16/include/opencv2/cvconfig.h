@@ -2,7 +2,7 @@
 #define OPENCV_CVCONFIG_H_INCLUDED
 
 /* OpenCV compiled as static or dynamic libs */
-/* #undef BUILD_SHARED_LIBS */
+#define BUILD_SHARED_LIBS
 
 /* OpenCV intrinsics optimized code */
 #define CV_ENABLE_INTRINSICS
@@ -11,10 +11,10 @@
 /* #undef CV_DISABLE_OPTIMIZATION */
 
 /* Compile for 'real' NVIDIA GPU architectures */
-#define CUDA_ARCH_BIN " 75"
+#define CUDA_ARCH_BIN ""
 
 /* NVIDIA GPU features are used */
-#define CUDA_ARCH_FEATURES " 75"
+#define CUDA_ARCH_FEATURES ""
 
 /* Compile for 'virtual' NVIDIA PTX architectures */
 #define CUDA_ARCH_PTX ""
@@ -47,13 +47,13 @@
 /* #undef HAVE_CSTRIPES */
 
 /* NVIDIA CUDA Basic Linear Algebra Subprograms (BLAS) API*/
-#define HAVE_CUBLAS
+/* #undef HAVE_CUBLAS */
 
 /* NVIDIA CUDA Runtime API*/
-#define HAVE_CUDA
+/* #undef HAVE_CUDA */
 
 /* NVIDIA CUDA Fast Fourier Transform (FFT) API*/
-#define HAVE_CUFFT
+/* #undef HAVE_CUFFT */
 
 /* IEEE1394 capturing support */
 /* #undef HAVE_DC1394 */
@@ -72,7 +72,7 @@
 #define HAVE_DSHOW
 
 /* Eigen Matrix & Linear Algebra Library */
-#define HAVE_EIGEN
+/* #undef HAVE_EIGEN */
 
 /* FFMpeg video library */
 #define HAVE_FFMPEG
@@ -142,7 +142,7 @@
 #define HAVE_OPENEXR
 
 /* OpenGL support*/
-#define HAVE_OPENGL
+/* #undef HAVE_OPENGL */
 
 /* OpenNI library */
 /* #undef HAVE_OPENNI */
@@ -172,7 +172,7 @@
 /* #undef HAVE_QTKIT */
 
 /* Intel Threading Building Blocks */
-#define HAVE_TBB
+/* #undef HAVE_TBB */
 
 /* TIFF codec */
 #define HAVE_TIFF

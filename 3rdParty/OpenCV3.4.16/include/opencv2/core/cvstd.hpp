@@ -45,7 +45,7 @@
 #define OPENCV_CORE_CVSTD_HPP
 
 #ifndef __cplusplus
-//#  error cvstd.hpp header must be compiled as C++
+#  error cvstd.hpp header must be compiled as C++
 #endif
 
 #include "opencv2/core/cvdef.h"
